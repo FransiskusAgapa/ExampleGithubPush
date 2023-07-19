@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  background-color: lightcyan;
+}
+
+.button-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#st-btn-box,
+#nd-btn-box {
+  height: 100px;
+  width: 100px;
+  border: none;
+  margin-top: 20px;
+  display: flex;
+}
+
+#st-btn,
+#nd-btn {
+  background-color: lightpink;
+  border: none;
+  border-radius: 10px;
+}
+
+.shade {
+  box-shadow: 4px 4px 6px black;
+}
